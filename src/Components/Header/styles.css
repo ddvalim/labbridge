@@ -1,0 +1,39 @@
+header#main-header{
+    width: 100%;
+    font-size: 35px;
+    color: black;
+    height: 120px;
+    background-color: white;
+    display: block;
+    align-items: center;
+}
+
+header#main-header div{
+    margin: 0px;
+    padding: 10px 0px 0px 0px;
+    font-weight: bold;
+}
+
+header#main-header lab-bridge{
+    text-decoration: none;
+    color: black;
+    padding: 0px;
+    color: #0099ff;
+}
+
+header#main-header a{
+    text-decoration: none;
+    color:black;
+    padding: 2px 30px 5px 30px;
+    font-size: 30px;
+    background-color:white;
+}
+
+header#main-header a:hover{
+    background-color: #0099ff;
+    color: white;
+    border-width: 3px;
+    transition: 0.5s;
+    cursor: pointer;
+
+}

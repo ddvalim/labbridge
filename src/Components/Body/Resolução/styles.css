@@ -1,0 +1,17 @@
+#numero_text{
+    padding: 10px;
+}
+
+#fieldset{
+    border-width: 0px;
+}
+
+#numero{
+    margin-right: 10px;
+}
+
+button{
+    background-color: #ffffff;
+    cursor: pointer;
+    border-radius: 5px;
+}
