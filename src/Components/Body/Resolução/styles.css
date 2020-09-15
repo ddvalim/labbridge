@@ -4,6 +4,7 @@
 
 #fieldset{
     border-width: 0px;
+    margin-top: 10px;
 }
 
 #numero{
@@ -14,4 +15,8 @@ button{
     background-color: #ffffff;
     cursor: pointer;
     border-radius: 5px;
+}
+
+#resultado{
+    margin-top: 10px;
 }

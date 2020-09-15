@@ -1,7 +1,7 @@
 #footer{
-    height: 80px;
+    height: 100px;
     margin-bottom: 0px;
-    margin-top: 155px;
+    margin-top: 200px;
     background-color: #292929;
     color: white;
     align-items: center;
@@ -10,5 +10,5 @@
 
 #copyright{
     align-items: center;
-    margin-left: 450px;
+    margin-left: 520px;
 }

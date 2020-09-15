@@ -1,15 +1,27 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './styles.css';
+import api from '../../../services/api';
 
-const Resolucao = () => (
+
+const Resolucao = () => { 
+    const [padrao, setPadrao] = useState("")
+    const [value, setValue] = useState("")
+    
+    const req = async () => {
+        let a = await api.get(`/api/calculator/${value}`)
+        setPadrao(a.data)
+    } 
+    return (
     <div>
-        <form action="#" method="post">
-            <fieldset id="fieldset">
-                <label for="numero" id="numero_text">Número</label>
-                <input id="numero"></input><button type="submit" action="" method="post" id="button">Enviar</button>
-            </fieldset>
-        </form>
+        <fieldset id="fieldset">
+            <label htmlFor="numero" id="numero_text">Número</label>
+            <input onChange={e => setValue(e.target.value)} id="numero"></input><button onClick={req} id="button">Enviar</button>
+            <div id='resultado'>
+                {padrao ? padrao:""}
+            </div>
+        </fieldset>
     </div>
 )
+}
 
 export default Resolucao;
