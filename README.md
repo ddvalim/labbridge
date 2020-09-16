@@ -1,5 +1,5 @@
 #     Projeto LABORATORIO BRIDGE
-#     Criação da API para o PROSEL do LABORATORIO BRIDGE, UFSC
+#     Criação do FRONT-END para o PROSEL do LABORATORIO BRIDGE, UFSC
 #     2020, DIOVANA RODRIGUES VALIM
 
            <--------------------- D E S C R I C A O -------------------------->
