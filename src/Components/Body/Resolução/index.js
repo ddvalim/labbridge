@@ -46,11 +46,12 @@ const Resolucao = () => {
                         { number.map( n => (
                             <tr>
                                 <td>
-                                    { n } <br></br>
+                                    { n } 
                                 </td>
                                 <td>
-                                    { Map[n] } <br></br>
+                                    { Map[n] } 
                                 </td>
+                                <br></br>
                             </tr>)
                         )}
                     </tbody>
