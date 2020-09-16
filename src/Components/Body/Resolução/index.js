@@ -43,14 +43,16 @@ const Resolucao = () => {
                         </tr>
                     </thead>
                     <tbody>
-                        <tr>
-                            <td>
-                                <div> { number } </div><br></br>
-                            </td>
-                            <td>
-                                <div> { fac } </div><br></br>
-                            </td>
-                        </tr>
+                        { number.map( n => (
+                            <tr>
+                                <td>
+                                    { n } <br></br>
+                                </td>
+                                <td>
+                                    { Map[n] } <br></br>
+                                </td>
+                            </tr>)
+                        )}
                     </tbody>
                 </table>
             </div>
