@@ -32,7 +32,7 @@ const Resolucao = () => {
             </div>
             <div id='historico'>
                 <table>
-                    <thead>
+                    <thead id='cabeca'>
                         <tr>
                             <th>
                                 Number
