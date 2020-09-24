@@ -37,14 +37,14 @@ Além disto é bom ter um editor para trabalhar com o código como [VSCode](http
 
 RODANDO O BACK-END
 
-1. No terminal do projeto dentro da IDE digite o comando ' mvn clean install '
-2. No terminal do projeto dentro da IDE digite o comando ' mvn spring-boot:run '
+1. No terminal do projeto dentro da IDE digite o comando ' mvn clean install ' para instalar as dependências do projeto
+2. No terminal do projeto dentro da IDE digite o comando ' mvn spring-boot:run ' para rodar o projeto a partir do comando do framework
 3. O servidor estará sendo escutado na porta indicada na IDE, para API sendo geralmente a porta :8080
 
 RODANDO O FRONT-END
 
-1. No terminal do projeto dentro da IDE digite o comando ' npm install '
-2. No terminal do projeto dentro da IDE digite o comando ' npm start '
+1. No terminal do projeto dentro da IDE digite o comando ' npm install ' para instalar as dependências do projeto
+2. No terminal do projeto dentro da IDE digite o comando ' npm start ' para rodar o projeto a partir do comando do framework
 3. O servidor estará sendo escutado na porta indicada na IDE, para o Node sendo geralmente a porta :3000
 
 ### Autor
