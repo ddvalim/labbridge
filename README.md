@@ -7,7 +7,7 @@
  <a href="#autor">Autor</a>
 </p>
 
-<h4 align="center"> 
+<h1 align="center"> 
   Status do projeto
-</h4>
-<h1 align="center"> Calculadora de Fatorial 🚀 Concluida </h1>
+</h1>
+<h4 align="center"> Calculadora de Fatorial 🚀 Concluida </h4>
