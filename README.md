@@ -10,4 +10,4 @@
 <h4 align="center"> 
   Status do projeto
 </h4>
-<h1> Calculadora de Fatorial 🚀 Concluida </h1>
+<h1 align="center"> Calculadora de Fatorial 🚀 Concluida </h1>
